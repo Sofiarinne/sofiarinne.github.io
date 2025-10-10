@@ -23,7 +23,7 @@ body {
     background-color:rgb(255, 184, 249) ;
     background-image: url(kampaamotaustakuva.jpg);
     background-size: cover;       /* venyttää niin että peittää koko näytön */
-    background-repeat: no-repeat; /* ei toistu */
+    background-repeat: space ;
     background-position: center;  /* keskittää kuvan */
     min-height: 100vh;            /* vähintään koko ikkunan korkeus */
     margin: 0;
@@ -194,4 +194,5 @@ body {
 .tule2 {
   margin-bottom: 10vw;
 }
+
 
