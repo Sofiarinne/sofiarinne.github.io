@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-size: 11vw;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    text-shadow: 10px 10px 20px rgb(255, 0, 238);  
+    margin-top: 3vw; 
+
+      border: 6px solid rgb(230, 0, 255);
+    /*box-sizing: border-box;*/
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: black;
+opacity: 0.9;
+color: rgb(255, 255, 255)
+}
+
+
+body { 
+    background-color:rgb(255, 184, 249) ;
+    background-image: url(kampaamotaustakuva.jpg);
+    background-size: cover;       /* venyttää niin että peittää koko näytön */
+    background-repeat: no-repeat; /* ei toistu */
+    background-position: center;  /* keskittää kuvan */
+    min-height: 100vh;            /* vähintään koko ikkunan korkeus */
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sisältö {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* poistaa horisontaalisen scrollin, jos jotain menee yli */
+}
+
+
+.valikko {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  height: 65px;
+  align-items: center; 
+  width: 100%;
+   flex-shrink: 0;
+}
+
+
+
+.valikko a {
+  display: flex;       
+  align-items: center;    
+  height: 100%;          
+  padding: 0 12px;       
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.valikko a:hover {
+  background-color: rgb(230, 0, 255);
+/* alkuperäinen #727272 */
+color: #ffffff;
+}
+
+
+.esittely1 img {
+     height: 30vw;
+     width: 30vw;
+     object-fit: cover;
+}
+
+.esittely1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;            /* keskittää pystysuunnassa, jos palkilla on korkeus */
+    gap: 10px;                      /* väli kuvien välillä (voidaan muuttaa) */
+    padding: 0 20vw;               
+}
+
+.esittely2 img {
+     height: 30vw;
+     width: 30vw;
+     object-fit: cover;
+}
+
+.esittely2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;            /* keskittää pystysuunnassa, jos palkilla on korkeus */
+    gap: 10px;                      /* väli kuvien välillä (voidaan muuttaa) */
+    padding: 0 20vw;   
+    margin-bottom: 6vw;            
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+   padding-left: 10vw;
+   padding-right: 10vw;
+  
+}
+
+.teksti {
+        margin-top: 1vw;
+        margin-bottom: 3vw;
+}
+
+.osa3 {
+    text-align: center;
+}
+
+.osa2, .osa3, .tule2 {
+display: none;
+}
+
+.tule, .tule2 {
+   color:rgb(0, 0, 0) ;
+   text-decoration: underline;
+}
+
+.footer {
+
+  background-color: #000;       /* taustaväri, voi muuttaa */
+  color: #fff;                  /* tekstin väri */
+  text-align: left;           /* keskitetty teksti */ 
+  bottom: 0;                    /* alareunassa */
+  width: 100%;                  /* täyden leveyden palkki */
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* halutessa pieni varjo */
+  font-size: 14px;              /* tekstin koko */
+  z-index: 1000;    
+  height: 7vw;
+
+  display: flex;
+  align-items: center; 
+}
+
+.footer p {
+  margin: 0;
+  padding-left: 3vw; /* tai vaikka 0 */
+  text-align: left;
+}
+
+
+.tiedot {
+font-size: 1vw;
+}
+
+.tägi {
+font-size: 2vw;
+}
+
+p, .osa1, .osa2, .osa3 {
+  flex-wrap: wrap;
+}
+
+.alapalkki {
+            height: 0;
+}
+
+.sivulla { background-color: rgb(230, 0, 255);
+    color: black;
+}
+
+.valikko a.sivulla {
+    color:black;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.sisältö {
+  flex: 1;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.tule2 {
+  margin-bottom: 10vw;
+}
+

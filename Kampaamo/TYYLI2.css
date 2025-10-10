@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+h1 {
+    color:rgb(0, 0, 0);
+    font-size:9vw;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    text-shadow: 10px 10px 20px rgb(255, 0, 238);  
+    margin-top: 4vw; 
+}
+
+body { 
+    background-color:rgb(247, 118, 232) ;
+    background-image: url(kampaamotaustakuva.jpg);
+    background-size:cover;
+    background-position: 12%;
+    background-repeat:space;
+    min-height: 100vh;
+   }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.valikko {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  height: 65px;
+  align-items: center; 
+  width: 100%;
+}
+
+
+
+.valikko a {
+  display: flex;          /* antaa hallinnan sisällölle */
+  align-items: center;    /* keskittää tekstin pystysuunnassa */
+
+  height: 100%;           /* yhtä korkea kuin palkki */
+  padding: 0 12px;        /* vain sivuttaisväli */
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+.valikko a:hover {
+  background-color: rgb(230, 0, 255);
+/* alkuperäinen #727272 */
+color: #ffffff;
+}
+
+.letit img {
+     height: 15vw;
+     width: 15vw;
+     object-fit: cover;
+}
+
+.letit {
+    display: flex;                
+    justify-content: center; 
+    gap: 10px;                     
+}
+
+h2 {
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Brush Script MT', cursive;
+    color:#000000;
+    margin-bottom: 30px;
+}
+
+.osaletit, .osavaalennukset, .osatummennukset {
+margin-top: 120px;
+margin-bottom: 180px;
+}
+
+
+p {
+text-align: center;
+margin-top: 40px;
+font-size: 23px;
+flex-wrap: wrap;
+margin-left: 13vw;
+margin-right: 13vw;
+}
+
+.sisältö {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; 
+}
+
+.nutturat img {
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+}
+
+.nutturat {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.kiharat img, .vaalennukset img, .tummennukset img, .raidat img{
+  height: 15vw;
+  width: 15vw;
+  object-fit: cover;
+}
+
+.kiharat, .vaalennukset, .tummennukset, .raidat {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.osakiharat, .osaraidat {
+margin-top: 120px;
+margin-bottom: 130px;
+}
+
+.sivulla { background-color: rgb(230, 0, 255);
+    color: black;
+}
+
+.valikko a.sivulla {
+    color:black;
+}
